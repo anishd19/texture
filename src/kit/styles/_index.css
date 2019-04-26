@@ -1,6 +1,7 @@
 @import './_button.css';
-@import './_input-with-button.css';
 @import './_find-and-replace.css';
+@import './_input-with-button.css';
+@import './_keyword-input.css';
 @import './_multi-select-input.css';
 @import './_pinned-msg.css';
 @import './_placeholder.css';
