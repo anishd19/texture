@@ -65,6 +65,7 @@ import {
 import InsertTableTool from './InsertTableTool'
 import OpenFigurePanelImageTool from '../shared/OpenFigurePanelImageTool'
 import RemoveItemCommand from '../shared/RemoveItemCommand'
+import RemoveKeywordCommand from '../shared/RemoveKeywordCommand'
 import ReplaceFigurePanelTool from '../shared/ReplaceFigurePanelTool'
 import ReplaceSupplementaryFileCommand from './ReplaceSupplementaryFileCommand'
 import ReplaceSupplementaryFileTool from './ReplaceSupplementaryFileTool'
@@ -264,6 +265,7 @@ export default {
       nodeType: 'footnote',
       commandGroup: 'footnote'
     })
+    config.addCommand('remove-keyword', RemoveKeywordCommand)
     config.addCommand('replace-figure-panel-image', ReplaceFigurePanelImageCommand, {
       commandGroup: 'figure-panel'
     })
